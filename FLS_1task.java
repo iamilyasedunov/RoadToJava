@@ -12,11 +12,14 @@ public class Main {
         for (int i = 1;i<=N;i++){
             if (check3(i))
                 System.out.println("Фиг");
-            if (check5(i))
+
+            if (check5(i)) 
                 System.out.println("Вам");
+
             if (check35(i))
                 System.out.println("ФигВам");
-            if (!((check3(i))&&(check5(i))&&(check35(i))))
+
+            if (!((check3(i))||(check5(i))||(check35(i))))
                 System.out.println(i);
         }
     }
